@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:background="@color/home_background">
+
+    <TextView
+        android:id="@+id/field_name"
+        style="@style/ListPersonField"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/field_height"
+        app:layout_constraintLeft_toRightOf="@id/label_barrier"
+        tools:text="Name Field"/>
+
+</LinearLayout>
